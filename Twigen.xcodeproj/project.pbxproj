@@ -9,11 +9,16 @@
 /* Begin PBXBuildFile section */
 		A41917C52448C4BA00D4C644 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41917C42448C4BA00D4C644 /* AppDelegate.swift */; };
 		A41917C72448C4BA00D4C644 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41917C62448C4BA00D4C644 /* SceneDelegate.swift */; };
-		A41917C92448C4BA00D4C644 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41917C82448C4BA00D4C644 /* ViewController.swift */; };
-		A41917CC2448C4BA00D4C644 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A41917CA2448C4BA00D4C644 /* Main.storyboard */; };
+		A41917C92448C4BA00D4C644 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41917C82448C4BA00D4C644 /* ProfileViewController.swift */; };
 		A41917CE2448C4BD00D4C644 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A41917CD2448C4BD00D4C644 /* Assets.xcassets */; };
 		A41917D12448C4BD00D4C644 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A41917CF2448C4BD00D4C644 /* LaunchScreen.storyboard */; };
 		A41917DC2448C4BE00D4C644 /* TwigenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41917DB2448C4BE00D4C644 /* TwigenTests.swift */; };
+		A41917E82448C83900D4C644 /* ProfileGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41917E72448C83900D4C644 /* ProfileGenerator.swift */; };
+		A44AB2502448FB8D00F84B2C /* Slip.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44AB24F2448FB8D00F84B2C /* Slip.swift */; };
+		A44AB2522448FBA900F84B2C /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44AB2512448FBA900F84B2C /* Profile.swift */; };
+		A44AB2542448FBBB00F84B2C /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44AB2532448FBBB00F84B2C /* Tweet.swift */; };
+		A44AB2562448FC2000F84B2C /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44AB2552448FC2000F84B2C /* Endpoints.swift */; };
+		A4F66EA42448D06A00F9AF12 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F66EA32448D06A00F9AF12 /* ProfileController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,14 +35,19 @@
 		A41917C12448C4BA00D4C644 /* Twigen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twigen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A41917C42448C4BA00D4C644 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A41917C62448C4BA00D4C644 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A41917C82448C4BA00D4C644 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A41917CB2448C4BA00D4C644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A41917C82448C4BA00D4C644 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		A41917CD2448C4BD00D4C644 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A41917D02448C4BD00D4C644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A41917D22448C4BD00D4C644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A41917D72448C4BE00D4C644 /* TwigenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwigenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A41917DB2448C4BE00D4C644 /* TwigenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwigenTests.swift; sourceTree = "<group>"; };
 		A41917DD2448C4BE00D4C644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A41917E72448C83900D4C644 /* ProfileGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileGenerator.swift; sourceTree = "<group>"; };
+		A44AB24F2448FB8D00F84B2C /* Slip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slip.swift; sourceTree = "<group>"; };
+		A44AB2512448FBA900F84B2C /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		A44AB2532448FBBB00F84B2C /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		A44AB2552448FC2000F84B2C /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		A4F66EA32448D06A00F9AF12 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,13 +89,16 @@
 		A41917C32448C4BA00D4C644 /* Twigen */ = {
 			isa = PBXGroup;
 			children = (
+				A44AB24E2448FB7E00F84B2C /* Model */,
 				A41917C42448C4BA00D4C644 /* AppDelegate.swift */,
 				A41917C62448C4BA00D4C644 /* SceneDelegate.swift */,
-				A41917C82448C4BA00D4C644 /* ViewController.swift */,
-				A41917CA2448C4BA00D4C644 /* Main.storyboard */,
+				A41917C82448C4BA00D4C644 /* ProfileViewController.swift */,
+				A4F66EA32448D06A00F9AF12 /* ProfileController.swift */,
 				A41917CD2448C4BD00D4C644 /* Assets.xcassets */,
 				A41917CF2448C4BD00D4C644 /* LaunchScreen.storyboard */,
 				A41917D22448C4BD00D4C644 /* Info.plist */,
+				A41917E72448C83900D4C644 /* ProfileGenerator.swift */,
+				A44AB2552448FC2000F84B2C /* Endpoints.swift */,
 			);
 			path = Twigen;
 			sourceTree = "<group>";
@@ -99,6 +112,16 @@
 			path = TwigenTests;
 			sourceTree = "<group>";
 		};
+		A44AB24E2448FB7E00F84B2C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A44AB24F2448FB8D00F84B2C /* Slip.swift */,
+				A44AB2512448FBA900F84B2C /* Profile.swift */,
+				A44AB2532448FBBB00F84B2C /* Tweet.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -109,6 +132,7 @@
 				A41917BD2448C4BA00D4C644 /* Sources */,
 				A41917BE2448C4BA00D4C644 /* Frameworks */,
 				A41917BF2448C4BA00D4C644 /* Resources */,
+				A41917E62448C4FB00D4C644 /* Swiftlint */,
 			);
 			buildRules = (
 			);
@@ -182,7 +206,6 @@
 			files = (
 				A41917D12448C4BD00D4C644 /* LaunchScreen.storyboard in Resources */,
 				A41917CE2448C4BD00D4C644 /* Assets.xcassets in Resources */,
-				A41917CC2448C4BA00D4C644 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,14 +218,41 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A41917E62448C4FB00D4C644 /* Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Swiftlint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A41917BD2448C4BA00D4C644 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A41917C92448C4BA00D4C644 /* ViewController.swift in Sources */,
+				A4F66EA42448D06A00F9AF12 /* ProfileController.swift in Sources */,
+				A44AB2562448FC2000F84B2C /* Endpoints.swift in Sources */,
+				A44AB2502448FB8D00F84B2C /* Slip.swift in Sources */,
+				A41917C92448C4BA00D4C644 /* ProfileViewController.swift in Sources */,
+				A44AB2522448FBA900F84B2C /* Profile.swift in Sources */,
+				A41917E82448C83900D4C644 /* ProfileGenerator.swift in Sources */,
 				A41917C52448C4BA00D4C644 /* AppDelegate.swift in Sources */,
 				A41917C72448C4BA00D4C644 /* SceneDelegate.swift in Sources */,
+				A44AB2542448FBBB00F84B2C /* Tweet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,14 +275,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A41917CA2448C4BA00D4C644 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A41917CB2448C4BA00D4C644 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A41917CF2448C4BD00D4C644 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -365,6 +407,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L76X5KFZD9;
 				INFOPLIST_FILE = Twigen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -372,7 +415,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.csfa.Twigen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -383,6 +426,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L76X5KFZD9;
 				INFOPLIST_FILE = Twigen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -390,7 +434,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.csfa.Twigen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -402,7 +446,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L76X5KFZD9;
 				INFOPLIST_FILE = TwigenTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -424,7 +468,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L76X5KFZD9;
 				INFOPLIST_FILE = TwigenTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
