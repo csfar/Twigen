@@ -9,8 +9,6 @@
 import Foundation
 
 struct Tweet {
-    let author: Profile
     let content: String
-    let creationDate: Date
     let likes: Int
 }

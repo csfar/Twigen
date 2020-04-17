@@ -12,6 +12,10 @@ enum Endpoints {
     case robot
     case genre
     case slip
+    case name
+    case bacon
+    case asdfast
+    case hipster
 }
 
 extension Endpoints {
@@ -24,6 +28,14 @@ extension Endpoints {
         case .robot:
             let uuid: String = UUID().uuidString
             return URL(string: "https://robohash.org/\(uuid)")!
+        case .name:
+            return URL(string: "https://randomuser.me/api/?inc=name")!
+        case .bacon:
+            return URL(string: "https://baconipsum.com/api/?type=meat-and-filler&sentences=3")!
+        case .asdfast:
+            return URL(string: "http://asdfast.beobit.net/api/?length=30&type=word")!
+        case .hipster:
+            return URL(string: "https://hipsum.co/api/?type=hipster-centric&sentences=2")!
         }
     }
 }

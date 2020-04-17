@@ -21,9 +21,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // new (see `application:configurationForConnectingSceneSession` instead).
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(frame: .zero)
-        let root = ProfileViewController()
+        let root = ParentViewController()
+        let navController = UINavigationController(rootViewController: root)
         window?.makeKeyAndVisible()
-        window?.rootViewController = root
+        window?.rootViewController = navController
         window?.windowScene = windowScene
     }
 
